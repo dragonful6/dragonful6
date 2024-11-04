@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+}
+
+.neural-network {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    overflow: hidden;
+    width: 80%;
+    max-width: 700px;
+    transition: transform 0.3s ease;
+}
+
+.neural-network:hover {
+    transform: scale(1.02);
+}
+
+.neural-network img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info {
+    padding: 20px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
